@@ -170,13 +170,14 @@ button:focus-visible {
   align-items: center;
   justify-content: space-between;
 }
-
-.logo {
- flex: 1;
-  background-color: #FFFFFF;
-  border: 1px solid #E5E7EB;
-  border-radius: 12px;
-  box-shadow: 0 1px 3px rgba(15, 27, 45, 0.08);
+.logo{
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+.logo img {
+ height: 60px;
 }
 
 .logo::after {
@@ -543,4 +544,11 @@ button:focus-visible {
   margin-top: 24px;
   font-size: 13px;
   color: #94A3B8;
+}
+.cont {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 3px solid #FF6B2C; 
 }
