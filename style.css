@@ -545,19 +545,3 @@ button:focus-visible {
   font-size: 13px;
   color: #94A3B8;
 }
-.contact{
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.cont {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border: 3px solid #FF6B2C; 
-  padding: 50px 100px;
-} 
-input{
-  margin-bottom: 15px;
-}
